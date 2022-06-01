@@ -1,27 +1,27 @@
 {
   "name": "i18n-vue-cli",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "i18n environment Chinese extract and input (for waytous)",
   "main": "index.js",
   "scripts": {
     "test": "node getLang.js"
   },
   "bin": {
-    "i18n-cli": "./index.js"
+    "i18n-vue-cli": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xujiujiu/i18n-collect-cli.git"
+    "url": "git+https://github.com/mlzk/i18n-vue-cli.git"
   },
   "keywords": [
     "i18n"
   ],
-  "author": "xujiujiu",
+  "author": "flycat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xujiujiu/i18n-collect-cli/issues"
+    "url": "https://github.com/mlzk/i18n-vue-cli/issues"
   },
-  "homepage": "https://github.com/xujiujiu/i18n-collect-cli#readme",
+  "homepage": "https://github.com/mlzk/i18n-vue-cli#readme",
   "devDependencies": {
     "commander": "^3.0.2"
   },

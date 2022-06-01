@@ -21,7 +21,7 @@ $ npm i -g i18n-vue-cli
 
 参考：
 ```js
-i18n-cli getlang src/view -f system.json -d system -e systemTrans
+i18n-vue-cli getlang src/view -f system.json -d system -e systemTrans
 ```
 src/view 为文件入口，相对于命令行位置src下view文件下
 -f system.json 写入system.json
@@ -50,12 +50,12 @@ src/view 为文件入口，相对于命令行位置src下view文件下
 1. 执行 writeLang 将中文以 i18n 的模式写入文件（仅支持 components 与 pages 里的 .vue 文件和 .js 文件）
 
 ```js
-$ i18n-cli writelang <srcDist> -f <filename> -d <dir> -i <ignoredir> -e<额外参数>
+$ i18n-vue-cli writelang <srcDist> -f <filename> -d <dir> -i <ignoredir> -e<额外参数>
 ```
   
   ```js
-  // 例如 i18n-cli writelang src3 -f system.json -d system -e systemTrans
-$ i18n-cli writelang <srcDist> -f <filename> -d <dir> -i <ignoredir> -e<额外参数>
+  // 例如 i18n-vue-cli writelang src3 -f system.json -d system -e systemTrans
+$ i18n-vue-cli writelang <srcDist> -f <filename> -d <dir> -i <ignoredir> -e<额外参数>
 ```
 + srcDist 为复制 src 出来的文件夹名
 + filename 为生成的语言文件的文件名，必须为json格式， 默认为zh_cn.json
